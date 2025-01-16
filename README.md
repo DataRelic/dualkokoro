@@ -2,8 +2,20 @@ Original README below - I've just added the gradio interface and a requirements.
 
 I ran this on windows, you'll need to get espeak-ng installed and working.
 
-this mini PoC, has errors, has issues but kinda works. many things need fixing or fleshing out if you want it to be semi-functional. prompts in particular need addressing. layout and response rendering...oh so so many things :D 
+this mini PoC, has errors, has issues but kinda works. many things need fixing or fleshing out if you want it to be semi-functional. 
 
+prompts in particular need addressing as well as layout and response rendering...oh so so many things :D 
+
+
+Adjust ollama models as you see fit, and remove entries for 
+
+```bash 
+ssl_certfile="localhost.crt",
+ssl_keyfile="localhost.key",
+ssl_verify=False
+```
+
+ you most likely won't need them.
 
 git clone https://github.com/DataRelic/dualkokoro.git
 
