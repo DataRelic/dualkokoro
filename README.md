@@ -19,6 +19,11 @@ ssl_verify=False
 
 git clone https://github.com/DataRelic/dualkokoro.git
 
+![SC1](kokoro_podcast.jpeg)
+![SC2](kokoro-podcast2.jpg)
+![SC3](kokoro-vision1.jpg)
+![SC4](kokoro-vision2.jpg)
+
 ---
 license: apache-2.0
 language:
